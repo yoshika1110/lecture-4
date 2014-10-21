@@ -3,11 +3,11 @@ var centeringSfcPyramid = function(n){
   var counter = 0;
   var a = 1;
   var b = 5;
-  var lec = "  ";
+  var row = "  ";
 
   while(counter < n){
     var info = b - a;
-    var project = lec.repeat(info);
+    var project = row.repeat(info);
     message = message + "SFC ";
     counter = counter + 1;
     a = a + 1;
